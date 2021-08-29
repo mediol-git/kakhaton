@@ -19,6 +19,9 @@ h1 {
     line-height: 70px;
     margin-bottom: 16px;
 }
+img {
+    max-width: 100%;
+}
 
 // mixins
 @mixin btn ($bg, $color) {
@@ -132,10 +135,12 @@ h1 {
     }
     .hero-images {
         display: flex;
+        justify-content: flex-end;
     }
     .thumb {
         margin-left: 55px;
         position: relative;
+        width: 261px;
         span {
             font-size: 20px;
             line-height: 20px;

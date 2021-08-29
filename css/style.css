@@ -23,6 +23,10 @@ h1 {
   margin-bottom: 16px;
 }
 
+img {
+  max-width: 100%;
+}
+
 .header {
   position: absolute;
   top: 17px;
@@ -188,11 +192,15 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .hero .thumb {
   margin-left: 55px;
   position: relative;
+  width: 261px;
 }
 
 .hero .thumb span {
